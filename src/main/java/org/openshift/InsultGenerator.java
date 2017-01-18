@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 public class InsultGenerator 
 {
-	private String getVowels()
+	public String getVowels()
 	{
 		return "AEIOU";
 	}
