@@ -5,10 +5,15 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class InsultGenerator 
-{ 
+{
+	private String getVowels()
+	{
+		return "AEIOU";
+	}
+	
     public String generateInsult() 
     {
-        String vowels = "AEIOU";
+        String vowels = getVowels();
         String article = "an";
         String theInsult = "";
 
